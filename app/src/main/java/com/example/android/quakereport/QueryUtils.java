@@ -126,6 +126,7 @@ public final class QueryUtils {
             while (line != null) {
                 output.append(line);
                 line = reader.readLine();
+                Log.i("Testing git hub", line);
             }
         }
         return output.toString();
